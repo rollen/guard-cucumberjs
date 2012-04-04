@@ -4,3 +4,6 @@ Feature: Run cucumberjs as part of Guard
   As a Developer
   I want to be able to run cucumberjs using guard 
 
+  Scenario: Run cucumberjs using guard
+    Given I have a directory named features
+
