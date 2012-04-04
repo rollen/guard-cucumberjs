@@ -1,3 +1,5 @@
+$:.push File.expand_path('../lib', __FILE__)
+
 Gem::Specification.new do |s|
   s.name = %q{guard-cucumberjs}
   s.author = %q{Rollen Gomes}
