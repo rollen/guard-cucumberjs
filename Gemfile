@@ -1,9 +1,10 @@
 source :rubygems
 
 group :development do
-  gem 'cucumber'
+  gem 'rspec'
+  gem 'rspec-spies'
   gem 'guard'
-  gem 'guard-cucumber'
+  gem 'guard-rspec'
 end
 
 

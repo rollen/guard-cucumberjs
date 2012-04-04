@@ -14,6 +14,8 @@ module Guard
     # Call once when Guard starts. Please override initialize method to init stuff.
     # @raise [:task_has_failed] when start has failed
     def start
+      puts "Guard::Cucumberjs is running"
+      run_all
     end
 
     # Called when `stop|quit|exit|s|q|e + enter` is pressed (when Guard quits).
@@ -31,6 +33,8 @@ module Guard
     # This method should be principally used for long action like running all specs/tests/...
     # @raise [:task_has_failed] when run_all has failed
     def run_all
+      puts "Running all tasks"
+      system('node_modules/.bin/cucumber.js features')
     end
 
     # Called on file(s) modifications that the Guard watches.
