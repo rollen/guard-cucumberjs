@@ -41,6 +41,7 @@ module Guard
     # @param [Array<String>] paths the changes files or paths
     # @raise [:task_has_failed] when run_on_change has failed
     def run_on_change(paths)
+      run_all
     end
 
     # Called on file(s) deletions that the Guard watches.
