@@ -23,7 +23,7 @@ Install
     $ git clone git@github.com:rollen/guard-cucumberjs.git
     $ cd guard-cucumberjs
     $ gem build guard-cucumberjs.gemspec
-    $ gem install gaurd-cucumberjs.guard-cucumberjs-0.0.1.gem
+    $ gem install guard-cucumberjs.guard-cucumberjs-0.0.1.gem
 
 from bundler
 
